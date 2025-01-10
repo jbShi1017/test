@@ -1,6 +1,5 @@
 from lxml import etree
 
-
 # 加载XML和XSLT文件
 xml_doc = etree.parse('output.xml')
 xslt_doc = etree.parse('gtest.xsl')
